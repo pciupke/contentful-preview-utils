@@ -1,0 +1,8 @@
+.containerPreview {
+  opacity: 0.4;
+}
+
+.containerPreview:hover {
+  cursor: pointer;
+  opacity: 1;
+}

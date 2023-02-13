@@ -4,7 +4,7 @@ import PreviewFormField from "./preview-form-field";
 import {
   updateEntryAsDraft,
   updateAndPublishEntry,
-} from "@/utils/contentful/manageEntry";
+} from "../../../manageEntries";
 import { useRouter } from "next/router";
 
 interface PreviewPortalProps {

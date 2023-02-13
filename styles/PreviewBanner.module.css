@@ -1,0 +1,24 @@
+.previewBanner {
+  align-items: center;
+  background-color: #a50104;
+  bottom: 0;
+  color: white;
+  display: flex;
+  font-size: large;
+  font-weight: 700;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.previewBanner button {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+  padding: 16px 16px;
+}

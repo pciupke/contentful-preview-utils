@@ -1,5 +1,5 @@
-import { ContentfulPreviewData } from "@/types/contentfulPreview";
 import { useEffect, useState } from "react";
+import { ContentfulPreviewData } from "../types/contentfulPreview";
 
 interface usePreviewProps {
   preview: boolean | undefined;

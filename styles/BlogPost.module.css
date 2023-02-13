@@ -1,0 +1,11 @@
+.container {
+  background-color: white;
+  border-radius: 5px;
+  color: #1f414c;
+  margin: 16px;
+  padding: 16px;
+}
+
+.title {
+  margin-bottom: 16px;
+}

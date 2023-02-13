@@ -19,7 +19,14 @@
   "homepage": "https://github.com/pciupke/contentful-preview-utils#readme",
   "devDependencies": {
     "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
     "contentful": "^9.3.2",
     "contentful-management": "^10.29.1"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

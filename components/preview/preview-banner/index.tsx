@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/PreviewBanner.module.css";
+import styles from "../../../styles/PreviewBanner.module.css";
 
 interface PreviewBannerProps {
   closePreview: () => void;

@@ -1,0 +1,25 @@
+{
+  "name": "contentful-preview-utils",
+  "version": "1.0.0",
+  "description": "A project that provides Utils and Helpers to generate a better preview-experience when working with contentful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pciupke/contentful-preview-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pciupke/contentful-preview-utils/issues"
+  },
+  "homepage": "https://github.com/pciupke/contentful-preview-utils#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "contentful": "^9.3.2",
+    "contentful-management": "^10.29.1"
+  }
+}

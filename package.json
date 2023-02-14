@@ -2,8 +2,11 @@
   "name": "contentful-preview-utils",
   "version": "1.0.0",
   "description": "A project that provides Utils and Helpers to generate a better preview-experience when working with contentful.",
-  "main": "index.js",
+  "types": "./lib/cjs/types/index.d.ts",
+  "main": "./lib/cjs/index.js",
   "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build && npmignore --auto",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,12 +25,33 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.10",
     "contentful": "^9.3.2",
-    "contentful-management": "^10.29.1"
+    "contentful-management": "^10.29.1",
+    "npmignore": "^0.3.0"
   },
   "dependencies": {
     "fast-safe-stringify": "^2.1.1",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "publishConfig": {
+    "ignore": [
+      "!build/"
+    ]
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/esm/types/index.d.ts",
+        "default": "./lib/esm/index.mjs"
+      },
+      "require": {
+        "types": "./lib/cjs/types/index.d.ts",
+        "default": "./lib/cjs/index.js"
+      }
+    }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }

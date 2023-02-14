@@ -2,7 +2,7 @@ import { Entry } from "contentful";
 import safeStringify from "fast-safe-stringify";
 import { GetStaticPropsContext } from "next/types";
 import { ParsedUrlQuery } from "querystring";
-import { ContentfulPreviewData } from "@/types/contentfulPreview";
+import { ContentfulPreviewData } from "./../types/contentfulPreview";
 
 /**
  * Takes context and contentful-homepage-data and transforms it to props that can be used in homepage-page

@@ -4,4 +4,4 @@
 
 - You need to use next (version ??? or higher).
 - Content needs field "internal"
-- Preview-URL in Contentful needs &env, &internal
+- In Addition to everything you need to fetch data from contentufl the preview-URL in Contentful needs the query parameters &env, &internal, &secret.

@@ -4,7 +4,7 @@ import PreviewFormField from "./preview-form-field";
 import {
   updateEntryAsDraft,
   updateAndPublishEntry,
-} from "../../../manageEntries";
+} from "../../../helpers/manageEntries";
 import { useRouter } from "next/router";
 
 interface PreviewPortalProps {

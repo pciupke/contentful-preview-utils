@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { ContentfulPreviewData } from "../types/contentfulPreview";
 
 interface usePreviewProps {
-  preview: boolean | undefined;
-  previewData?: ContentfulPreviewData | undefined;
+  preview?: boolean;
+  previewData?: ContentfulPreviewData;
 }
 
 /**
@@ -21,7 +21,7 @@ interface usePreviewProps {
  */
 const usePreview = ({
   preview = false,
-  previewData = { env: "dev", internal: "" },
+  previewData = { env: "master", internal: "" },
 }: usePreviewProps) => {
   const [previewMode, setPreviewMode] = useState<boolean>(false);
 

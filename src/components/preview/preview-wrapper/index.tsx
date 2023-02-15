@@ -24,7 +24,7 @@ const PreviewWrapper: React.FC<PreviewWrapperProps> = ({ children, data, preview
   const [showModal, setShowModal] = useState<boolean>(false)
   const [hover, setHover] = useState(false)
 
-  var elementStyle = hover ? { opacity: '1', cursor: 'pointer' } : { opacity: '0.4' }
+  const elementStyle = hover ? { opacity: '1', cursor: 'pointer' } : { opacity: '0.4' }
 
   const closeModal = () => {
     setShowModal(false)

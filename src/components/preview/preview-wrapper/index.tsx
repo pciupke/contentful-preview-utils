@@ -39,7 +39,7 @@ const PreviewWrapper: React.FC<PreviewWrapperProps> = ({ children, data, preview
   return (
     <section
       id={data.fields.internal}
-      onMouseEnter={() => setHover(true)}
+      onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
       style={previewMode ? elementStyle : {}}
     >

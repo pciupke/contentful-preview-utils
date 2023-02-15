@@ -1,5 +1,7 @@
 # contentful-preview-utils
 
+PACKAGE IN PROGRESS. STILL NEEDS SOME ADJUSTMENTS
+
 ## Prerequisites
 
 - You need to use next (version ??? or higher).

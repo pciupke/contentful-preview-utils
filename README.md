@@ -25,7 +25,7 @@ yarn add contentful-preview-utils
 
 ### Usage
 
-Set up your contentful-preview mode to fetch your data from contentful. Here is some advice from next.js to help you with that: [next.js Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode) and in addition specifically for the setup of a [contentful-preview in next](https://github.com/vercel/next.js/tree/canary/examples/cms-contentful)
+Set up your contentful-preview mode to fetch your data from contentful. Here is some advice from next.js to help you with that: [next.js Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode) and in addition specifically for the setup of a [contentful-preview in next](https://github.com/vercel/next.js/tree/canary/examples/cms-contentful).
 
 ## Limitations
 

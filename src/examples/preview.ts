@@ -1,7 +1,7 @@
-// Important:
-// this is just an example of how you could setup your preview.ts.
-// For now you need to find a way to fetch your contentful-data yourself. But I am working on a solution for that.
-// Most important is line 66 where you set the previewData. This needs to contain at least the "env"-field and the "internal"-field
+// this is just an example of how you could setup your preview.ts
+// For now, you need to find a way to fetch your contentful-data yourself
+// Most important is line 66 where you set the previewData.
+// The previewData-object needs to contain at least the "env"- and the "internal"-field for this package to work.
 
 // -----------------------------------------
 

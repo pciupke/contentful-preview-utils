@@ -15,7 +15,7 @@ interface PreviewWrapperProps {
  * Just wrap you Component with this wrapper and you will be able to use the contentful preview for every child with this container.
  *
  * @param PreviewWrapperProps
- * @param children React.ReactNode no need to pass anything, just wrap child with this component
+ * @param children React.ReactNode no need to pass anything, just wrap a child with this component
  * @param data Entry from contentful that you want to make accessable through the preview
  * @param previewMode Boolean that shows if you are in PreviewMode
  * @returns JSX-Element that has id attribute as wrapper for your components

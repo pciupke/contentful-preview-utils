@@ -1,5 +1,4 @@
-// Important:
-// This is not a working example.
+// This is not a working example, as it uses some functions like "getContentfulHomepage" which are custom functions and not part of this package
 // It is just an inspiration of how you could use the contentful-preview-utils-package.
 
 import React from 'react'
@@ -16,7 +15,7 @@ import { usePreview } from 'contentful-preview-utils'
 import { transformPageDataToProps } from 'contentful-preview-utils'
 import { PreviewBanner, PreviewWrapper } from 'contentful-preview-utils'
 
-export interface PageProps {
+interface PageProps {
   page: IPage
   preview?: boolean
   previewData?: ContentfulPreviewData

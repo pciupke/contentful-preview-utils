@@ -4,7 +4,7 @@ Just as a reminder: You have to setup the preview-urls correclty.
 
 ### Your preview setup
 
-You find hints how to do it in the package readme. So your urls should look something like this:
+You find hints how to do it in the package readme. So your urls should look something like this (change localhost to your domain):
 
 ![previewUrls](./workflow-images/previewUrls.png)
 

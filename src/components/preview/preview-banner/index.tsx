@@ -28,7 +28,7 @@ const PreviewBanner: React.FC<PreviewBannerProps> = ({ closePreview }) => {
         width: '100%',
       }}
     >
-      <h3>Preview-Mode ist aktiviert</h3>
+      <h3>Preview-Mode is on</h3>
       <button
         onClick={closePreview}
         style={{
@@ -42,7 +42,7 @@ const PreviewBanner: React.FC<PreviewBannerProps> = ({ closePreview }) => {
         }}
         type='button'
       >
-        PreviewMode beenden
+        PreviewMode off
       </button>
     </section>
   )

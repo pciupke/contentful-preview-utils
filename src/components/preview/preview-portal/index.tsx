@@ -85,7 +85,7 @@ const PreviewPortal: React.FC<PreviewPortalProps> = ({ entry, closeModal }) => {
                 marginBottom: '1rem',
               }}
             >
-              Ändere Content-Typen: {fields.internal}
+              Edit Content-Type: {fields.internal}
             </h3>
             {Object.entries(data).map(([field, value], index: number) => (
               <PreviewFormField key={index} value={value} field={field} setData={setData} />
@@ -109,7 +109,7 @@ const PreviewPortal: React.FC<PreviewPortalProps> = ({ entry, closeModal }) => {
                 type='button'
                 onClick={closeModal}
               >
-                Abbrechen
+                Cancel
               </button>
               <button
                 style={{
@@ -123,7 +123,7 @@ const PreviewPortal: React.FC<PreviewPortalProps> = ({ entry, closeModal }) => {
                 type='button'
                 onClick={redirectToContentful}
               >
-                Gehe zu Contentful
+                Go to Contentful
               </button>
               <button
                 style={{
@@ -137,7 +137,7 @@ const PreviewPortal: React.FC<PreviewPortalProps> = ({ entry, closeModal }) => {
                 type='button'
                 onClick={() => directEdit(false)}
               >
-                Direkt anwenden als Draft
+                Apply changes as draft
               </button>
               <button
                 style={{
@@ -151,7 +151,7 @@ const PreviewPortal: React.FC<PreviewPortalProps> = ({ entry, closeModal }) => {
                 type='button'
                 onClick={() => directEdit(true)}
               >
-                Direkt anwenden und veröffentlichen
+                Apply changes and publish
               </button>
             </div>
           </div>

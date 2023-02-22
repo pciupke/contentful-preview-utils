@@ -4,8 +4,10 @@ import PreviewFormField from './components/preview/preview-portal/preview-form-f
 import usePreview from './hooks/usePreview'
 import { updateEntryAsDraft, updateAndPublishEntry } from './helpers/manageEntries'
 import { transformPageDataToProps } from './helpers/getStaticPropsHelper'
+import { ContentfulPreviewData } from './types/contentfulPreview'
 
 export {
+  ContentfulPreviewData,
   PreviewWrapper,
   PreviewBanner,
   PreviewFormField,

@@ -4,18 +4,23 @@ Contentful-preview-utils is a package that provides you with features to improve
 
 It improves your editors workflow by giving them a chance to change contentful-content directly from the preview-site without the need to navigate back to contentful.
 
-## Disclaimer
+When you use this package your editor can navigate to the "_.../api/preview/..._"-preview-page of your next.js-app. There the editor will be able to press **"Command"** + **"Option"** + **"S"** to start the previewMode. In this mode every content from contentful will be highlighted. When clicked upon there is a modal popping up which lets the editor change the text-input directly without navigating back to contentful.com (although there is the option to go directly to the selected entry).
 
-This is my first package. Its fully functional but I still need to figure out, how to write a proper readme. Feel free to use this package. Check this readme every now and then as I am willing to update and extend it in the future.
+I dont want to overload this package with images. But you can get a visual impression of your editors workflow while using this package in the [_github-repo_](https://github.com/pciupke/contentful-preview-utils) (you'll find it in the _workflow-example.md_)
 
 ## Prerequisites
 
 - This package only works as part of a **next.js-project ( version >= 12 )**
 - Every single content that you want to preview or edit needs to have a required and unique field with the name **"internal"**
 - You need to add the query parameters **&env=\{entry.sys.environment.sys.id\}&internal={entry.fields.internal}&secret=<your_secret>** to the preview-URL in the contentful-app.
--
+
+## Disclaimer
+
+Until now, I haven't implemented the opportunity for you to change the styles and options of the portal. I am working on that, but it might take some time.
 
 ## Getting Started
+
+I assume you know how to setup your next.js-Project and connect it to contentful. For the latter I gave some hints, but no complete guide. Once you setup up your project you can use this package in the following way:
 
 ### Installation
 
